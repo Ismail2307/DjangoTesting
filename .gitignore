@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+*.pyo
+*.pyd
+.Python
+
+# Django specific
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+local_settings.py
+
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+.ENV/
+
+# VSCode / JetBrains / IDEs
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Git
+*.orig
+
+# dotenv files (secrets, keys)
+.env
+.env.*
+
+# Migrations (optional if you want to reset them later)
+**/migrations/*.py
+**/migrations/__pycache__/
+
+# Coverage / Testing
+htmlcov/
+.coverage
+.tox/
+.pytest_cache/
